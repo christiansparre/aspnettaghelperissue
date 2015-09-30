@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{544B0260-4ECC-4C72-B336-BFE04BED4E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{639020E1-44B1-4B1F-889C-8A644846E3B5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TagHelperTest", "src\TagHelperTest\TagHelperTest.xproj", "{D93FE08C-9872-41E8-9D42-D8B09838521A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93FE08C-9872-41E8-9D42-D8B09838521A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93FE08C-9872-41E8-9D42-D8B09838521A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93FE08C-9872-41E8-9D42-D8B09838521A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93FE08C-9872-41E8-9D42-D8B09838521A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D93FE08C-9872-41E8-9D42-D8B09838521A} = {544B0260-4ECC-4C72-B336-BFE04BED4E4D}
+	EndGlobalSection
+EndGlobal
